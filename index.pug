@@ -1,0 +1,51 @@
+.modal
+  .side
+    .skew
+      h3 Google OnHub Shell
+      img(src="https://cbwconline.com/IMG/Codepen//OnHub%20Skin.png")
+      .btn Total Price: $37.98
+  .header
+    h1 Enter Payment Details
+  .form
+    form
+      fieldset.number
+        label(for='number') Card Number
+        input#number(type='num' maxlength='4')
+        input(type='num' maxlength='4')
+        input(type='num' maxlength='4')
+        input(type='num' maxlength='4')
+      fieldset.name
+        label(for='name') Cardholder Name
+        input#name(type='text')
+      fieldset.exp
+        label(for='exp') Expiration
+        select#exp
+          option ...
+          option Jan
+          option Feb
+          option Mar
+          option Apr
+          option May
+          option Jun
+          option Jul
+          option Aug
+          option Sep
+          option Oct
+          option Nov
+          option Dec
+        select
+          option ...
+          option 2016
+          option 2017
+          option 2018
+          option 2019
+          option 2020
+          option 2021
+          option 2022
+          option 2023
+          option 2024
+          option 2025
+      fieldset.ccv
+        label(for='ccv') CCV
+        input#ccv(type='num' maxlength='3')
+      button(type='button') Confirm And Pay
